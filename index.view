@@ -1,0 +1,54 @@
+<svg>
+  <text id="recTime" fill="#ffffff" font-size="50" x="50%" y="50" text-anchor="middle" text-length="8" >0</text>
+  <text id="status" fill="white" font-size="28" x="50%" y="90" text-anchor="middle" text-length="20" >Ready</text>
+  <text id="error" fill="white" font-size="28" x="50%" y="125" text-anchor="middle" text-length="20" />
+
+  <use id="myList" href="#tile-list" class="horizontal-pad">
+   <use href="#my-header">
+      <set href="#text" attributeName="text-buffer" to=" " />
+    </use>
+    <var id="separator-height-bottom" value="6" />
+    <use id="walkButton" href="#my-item">
+      <set href="#text" attributeName="text-buffer" to="Walk" />
+    </use>
+    <use id="runButton" href="#my-item">
+      <set href="#text" attributeName="text-buffer" to="Run" />
+    </use>
+    <use id="eatButton" href="#my-item">
+      <set href="#text" attributeName="text-buffer" to="Eat" />
+    </use>
+    <use id="sleepButton" href="#my-item">
+      <set href="#text" attributeName="text-buffer" to="Sleep" />
+    </use>
+        <use id="videoGameButton" href="#my-item">
+      <set href="#text" attributeName="text-buffer" to="Video game" />
+    </use>
+    <use id="bikeButton" href="#my-item">
+      <set href="#text" attributeName="text-buffer" to="Bike" />
+    </use>
+    <use id="playBallButton" href="#my-item">
+      <set href="#text" attributeName="text-buffer" to="Play Ball" />
+    </use>
+    <use id="stopButton" href="#my-item">
+      <set href="#text" attributeName="text-buffer" to="Stop" />
+    </use>
+    <use id="sendFileButton" href="#my-item">
+      <set href="#text" attributeName="text-buffer" to="Send File" />
+    </use>
+    <use id="stopFileButton" href="#my-item">
+      <set href="#text" attributeName="text-buffer" to="Stop File Transfer" />
+    </use>
+    <use id="randomActivityButton" href="#my-item">
+      <set href="#text" attributeName="text-buffer" to="Random Activity" />
+    </use>
+    <use id="sendAccelFileButton" href="#my-item">
+      <set href="#text" attributeName="text-buffer" to="Send Accel Files" />
+    </use>
+    <use id="sendGyroFileButton" href="#my-item">
+      <set href="#text" attributeName="text-buffer" to="Send Gyro Files" />
+    </use>
+    <use id="sendHeartFileButton" href="#my-item">
+      <set href="#text" attributeName="text-buffer" to="Send Heartrate Files" />
+    </use>
+  </use>
+</svg>

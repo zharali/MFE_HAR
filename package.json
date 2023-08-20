@@ -1,0 +1,40 @@
+{
+  "name": "data",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~6.1.0",
+    "@fitbit/sdk-cli": "^1.7.3"
+  },
+  "fitbit": {
+    "appUUID": "db25e784-cf58-4518-a84d-f3cafa49688d",
+    "appType": "app",
+    "appDisplayName": "Data Fetcher",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "appClusterID": "my.app",
+    "developerID": "bdff5c99-cb53-453c-92f9-907fb697f843",
+    "requestedPermissions": [ 
+      "access_activity",
+      "access_app_cluster_storage",
+      "access_exercise",
+      "access_heart_rate",
+      "access_internet",
+      "access_location",
+      "run_background",
+      "access_sleep",
+      "access_user_profile"
+  ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
